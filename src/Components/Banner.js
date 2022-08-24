@@ -1,7 +1,11 @@
+/** @format */
+
 import { useEffect, useState } from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import headerImg from '../assets/img/header-img.svg';
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleteing, setIsDeleteing] = useState(false);
@@ -42,20 +46,28 @@ export const Banner = () => {
       <Container>
         <Row className='align-items-center'>
           <Col xs={12} md={6} xl={7}>
-            <span className='tagline'>Welcome to my Portfolio</span>
-            <h1>
-              {`Hi I'm Hana `} <span className='wrap'>{text}</span>
-            </h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-              provident, asperiores delectus optio sunt neque debitis ratione
-              repudiandae voluptatum eos accusantium, itaque reiciendis non.
-              Magnam suscipit quibusdam beatae sequi quisquam!
-            </p>
-            <button
-              onClick={() => console.log('this is the banner console .log')}>
-              Let's connect <ArrowRightCircle size={25} />
-            </button>
+            <TrackVisibility>
+            {({isVisible})=> 
+              <div className={isVisible ? "animate__animated animate__fadeIn " : ""}>
+                <span className='tagline'>Welcome to my Portfolio</span>
+                <h1>
+                  {`Hi I'm Hana Abdulla `} <span className='wrap'>{text}</span>
+                </h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
+                  provident, asperiores delectus optio sunt neque debitis
+                  ratione repudiandae voluptatum eos accusantium, itaque
+                  reiciendis non. Magnam suscipit quibusdam beatae sequi
+                  quisquam!
+                </p>
+                <button
+                  onClick={() =>
+                    console.log('this is the banner console .log')
+                  }>
+                  Let's connect <ArrowRightCircle size={25} />
+                </button>
+              </div>}
+            </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img src={headerImg} alt='header image' />

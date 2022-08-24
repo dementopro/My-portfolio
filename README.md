@@ -1,3 +1,20 @@
+# Prsonal  Port Folio using react
+this is a personal portfilio using react js to create it 
+
+### language 
+- react 
+- react hooks
+- css 
+
+
+### package
+- for the icon [react bootstrap icon ]('https://www.npmjs.com/package/react-bootstrap-icons')
+- for the component   [react bootstrapped]('https://react-bootstrap.github.io/')
+- for  the carousel [react-multi-carousel] ('https://www.npmjs.com/package/react-multi-carousel')
+- for animation [Animate.css]('https://animate.style/')
+- for Check if your react component are visible on the screen without pain and with performance in mind [react-on-screen]('https://www.npmjs.com/package/react-on-screen')
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
