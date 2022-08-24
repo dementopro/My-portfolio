@@ -1,5 +1,26 @@
-# Prsonal  Port Folio using react
-this is a personal portfilio using react js to create it 
+## Prsonal  Port Folio using react
+this is a personal portfilio using react and animation js to create it 
+THe Banner
+
+![Demo1](./src/assets/img/example1.jpg)
+
+The Skill  
+
+![Demo2](./src/assets/img/example2.jpg)
+
+The Project  
+
+![Demo3](./src/assets/img/example3.jpg)
+
+The Contact  
+
+![Demo4](./src/assets/img/example4.jpg)
+
+The Footer  
+
+![Demo5](./src/assets/img/example5.jpg)
+
+
 
 ### language 
 - react 
@@ -8,12 +29,14 @@ this is a personal portfilio using react js to create it
 
 
 ### package
-- for the icon [react bootstrap icon ]('https://www.npmjs.com/package/react-bootstrap-icons')
-- for the component   [react bootstrapped]('https://react-bootstrap.github.io/')
-- for  the carousel [react-multi-carousel] ('https://www.npmjs.com/package/react-multi-carousel')
-- for animation [Animate.css]('https://animate.style/')
-- for Check if your react component are visible on the screen without pain and with performance in mind [react-on-screen]('https://www.npmjs.com/package/react-on-screen')
+- for the icon [react bootstrap icon ](https://www.npmjs.com/package/react-bootstrap-icons)
+- for the component   [react bootstrapped](https://react-bootstrap.github.io)
+- for  the carousel [react-multi-carousel] (https://www.npmjs.com/package/react-multi-carousel)
+- for animation [Animate.css](https://animate.style/)
+- for Check if your react component are visible on the screen without pain and with performance in mind [react-on-screen](https://www.npmjs.com/package/react-on-screen)
 
+
+ ### 
 
 # Getting Started with Create React App
 
