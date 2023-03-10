@@ -103,7 +103,7 @@ export const Contact = () => {
                     id=''
                   />
                 </Col>
-                <Col>
+                <Col className='px-1'>
                   <textarea
                     row='6'
                     value={formDetail.message}

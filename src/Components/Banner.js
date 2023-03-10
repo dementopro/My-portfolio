@@ -9,7 +9,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleteing, setIsDeleteing] = useState(false);
-  const toRotate = ['Web developer', 'Web designer', 'UI/UX Design'];
+  const toRotate = ['Web & Mobile developer', 'Blockchain developer', 'UI/UX Design',];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(200 - Math.random() * 100);
   const period = 2000;
@@ -51,14 +51,13 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn " : ""}>
                 <span className='tagline'>Welcome to my Portfolio</span>
                 <h1>
-                  {`Hi I'm Hana Abdulla `} <span className='wrap'>{text}</span>
+                  {`Hi I'm Daniel Pisco     `} <span className='wrap'>{text}</span>
                 </h1>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex
-                  provident, asperiores delectus optio sunt neque debitis
-                  ratione repudiandae voluptatum eos accusantium, itaque
-                  reiciendis non. Magnam suscipit quibusdam beatae sequi
-                  quisquam!
+                  <strong>Daniel</strong> is a skilled software developer with a broad and versatile coding skill set. He quickly helps startups and enterprises with
+                  prototypes and ideas by efficiently building those things into reality. His expertise lies in building MVPs, apps, enterprise software, 
+                  scalable microservices, web crawlers, REST and Socket APIs, infrastructure modeling, AWS and deployments.
+                  Daniel is the go-to guy for any of your development needs.
                 </p>
                 <button
                   onClick={() =>

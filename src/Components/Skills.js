@@ -44,27 +44,23 @@ export const Skills = () => {
                 className='skill-slider'>
                 <div className='item'>
                 <img src={meter1} alt='Image' />
-                  <h5>Web design</h5>
+                  <h5>Front-end Development</h5>
                 </div>
                 <div className='item'>
-                  <img src={meter2} alt='Image' />
-                  <h5>Web deveoper</h5>
+                  <img src={meter1} alt='Image' />
+                  <h5>Back-end Development</h5>
                 </div>
                 <div className='item'>
                   <img src={meter3} alt='Image' />
-                  <h5>Ui / ux design</h5>
+                  <h5>Mobile Development</h5>
+                </div>
+                <div className='item'>
+                  <img src={meter3} alt='Image' />
+                  <h5>UI / UX design</h5>
                 </div>
                 <div className='item'>
                   <img src={meter3}alt='Image' />
-                  <h5> creating brand</h5>
-                </div>
-                <div className='item'>
-                  <img src={meter3} alt='Image' />
-                  <h5>Vedio editor</h5>
-                </div>
-                <div className='item'>
-                  <img src={meter3} alt='Image' />
-                  <h5>Data scince</h5>
+                  <h5> AI / ML</h5>
                 </div>
               </Carousel>
             </div>
