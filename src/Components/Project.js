@@ -6,6 +6,7 @@ import projImg2 from '../assets/img/project-img2.png';
 import projImg3 from '../assets/img/project-img3.png';
 import projImg4 from '../assets/img/Skisites.png';
 import projImg5 from '../assets/img/mtg.png';
+import projImg6 from '../assets/img/mwc.png';
 import Nav from 'react-bootstrap/Nav';
 import { ProjectCard } from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
@@ -15,28 +16,33 @@ export const Project = () => {
   const webs = [
     {
       title: 'Bussniss Startup ',
-      describtion: 'Desgin & Develope',
+      description: 'Desgin & Develope',
       imgUrl: projImg1,
     },
     {
       title: 'Bussniss Startup ',
-      describtion: 'Desgin & Develope',
+      description: 'Desgin & Develope',
       imgUrl: projImg2,
     },
     {
       title: 'Bussniss Startup ',
-      describtion: 'Desgin & Develope',
+      description: 'Desgin & Develope',
       imgUrl: projImg3,
     },
     {
       title: 'Ski_Website ',
-      describtion: 'Development',
+      description: 'Development',
       imgUrl: projImg4,
     },
     {
       title: 'Fintech Startup ',
-      describtion: 'Development',
+      description: 'Development',
       imgUrl: projImg5,
+    },
+    {
+      title: 'ModernWineClub ',
+      description: 'Development',
+      imgUrl: projImg6,
     },
   ];
 

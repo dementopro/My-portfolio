@@ -33,10 +33,8 @@ export const Skills = () => {
             <div className='skill-bx'>
               <h2>Skills</h2>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-                exercitationem dignissimos quidem commodi tempore quos nobis
-                deserunt tenetur fugiat dolores porro, omnis quasi explicabo in
-                quia eligendi incidunt tempora repellendus!
+                Web3, React, Vue, Angular, Ruby on Rails, Elixir,  Typescript, JavaScript, CSS3, HTML5, SCSS/SASS, Bootstrap, Material, Tailwind CSS,
+                Django/Python, Node.js/Express, PHP, MySQL, Oracle, MongoDB, PostreSQL, Azure SQL, Firebase, AWS, Git, cPanel, Docker, Airtable.
               </p>
               <Carousel
                 responsive={responsive}
