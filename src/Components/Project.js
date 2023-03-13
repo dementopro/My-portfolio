@@ -102,10 +102,7 @@ export const Project = () => {
               )}
             </TrackVisibility>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-              exercitationem dignissimos quidem commodi tempore quos nobis
-              deserunt tenetur fugiat dolores porro, omnis quasi explicabo in
-              quia eligendi incidunt tempora repellendus!
+              Here are my <b>Achievements</b> and <b>Certificates</b> from Hackerrank.
             </p>
             <Tab.Container id='projects-tabs' defaultActiveKey='first'>
               <Nav
