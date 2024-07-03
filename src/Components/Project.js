@@ -11,6 +11,7 @@ import projImg7 from '../assets/img/luna.png';
 import projImg8 from '../assets/img/Zark.png';
 import projImg9 from '../assets/img/ads.png';
 import projImg10 from '../assets/img/max.png';
+import projImg11 from '../assets/img/Fintelli.png';
 import Nav from 'react-bootstrap/Nav';
 import { ProjectCard } from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
@@ -67,9 +68,9 @@ export const Project = () => {
 
   const mobiles = [
     {
-      title: 'Bussniss Startup ',
+      title: 'New Way to Manage Your Money',
       describtion: 'Desgin & Develop',
-      imgUrl: projImg1,
+      imgUrl: projImg11,
     },
     {
       title: 'ZarkParking',
