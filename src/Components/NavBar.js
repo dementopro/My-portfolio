@@ -10,6 +10,7 @@ import { useState , useEffect } from 'react';
 export const NavBar =() => {
     const [activeLink, setActiveLink] = useState('home')
     const [scrolled, setScrolled] = useState(true)
+
     useEffect(( ) => {
     const onScroll = () => {
         if(window.scrollY > 50){
@@ -39,7 +40,6 @@ export const NavBar =() => {
             <Nav.Link href="#home"  className={activeLink === 'home' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('home')} >Home</Nav.Link>
             <Nav.Link href="#skill" className={activeLink === 'skill' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('skill')} >Skills</Nav.Link>
             <Nav.Link href="#project" className={activeLink === 'project' ? 'active navbar-link':'navbar-link'} onClick={()=> onUpdateActiveLink('project')} >Project</Nav.Link>
-          
           </Nav>
           <span className='navbar-text'>
             <div className="social-icon">
@@ -47,7 +47,10 @@ export const NavBar =() => {
                 <a href="#"><img src={NavIcon2} alt="" /></a>
                 <a href="#"><img src={NavIcon3} alt="" /></a>
             </div>
-            <button className='vvd' onClick={() => console.log('hello')}> <span>Let's Connect</span></button>
+            {/* <button className='vvd' onClick={() => console.log('hello')}> <span>Let's Connect</span></button> */}
+            <button className='vvd' onClick={() => window.location.href = '#contact'}>
+              <span>Let's Connect</span>
+            </button>
           </span>
         </Navbar.Collapse>
       </Container>

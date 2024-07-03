@@ -9,7 +9,7 @@ import TrackVisibility from 'react-on-screen';
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleteing, setIsDeleteing] = useState(false);
-  const toRotate = ['Web & Mobile developer', 'Blockchain developer', 'UI/UX Design',];
+  const toRotate = ['Front-end developer'];
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(200 - Math.random() * 100);
   const period = 2000;
@@ -51,13 +51,13 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn " : ""}>
                 <span className='tagline'>Welcome to my Portfolio</span>
                 <h1>
-                  {`Hi I'm Daniel Pisco     `} <span className='wrap'>{text}</span>
+                  {`Hi I'm Torn Vyrack`}<br /> <span className='wrap'>{text}</span>
                 </h1>
                 <p>
-                  <strong>Daniel</strong> is a skilled software developer with a broad and versatile coding skill set. He quickly helps startups and enterprises with
+                  <strong>Torn</strong> is a skilled software developer with a broad and versatile coding skill set. He quickly helps startups and enterprises with
                   prototypes and ideas by efficiently building those things into reality. His expertise lies in building MVPs, apps, enterprise software, 
                   scalable microservices, web crawlers, REST and Socket APIs, infrastructure modeling, AWS and deployments.
-                  Daniel is the go-to guy for any of your development needs.
+                  Torn is the go-to guy for any of your development needs.
                 </p>
                 <button
                   onClick={() =>
