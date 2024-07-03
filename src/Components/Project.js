@@ -7,6 +7,10 @@ import projImg3 from '../assets/img/project-img3.png';
 import projImg4 from '../assets/img/Skisites.png';
 import projImg5 from '../assets/img/mtg.png';
 import projImg6 from '../assets/img/mwc.png';
+import projImg7 from '../assets/img/luna.png';
+import projImg8 from '../assets/img/Zark.png';
+import projImg9 from '../assets/img/ads.png';
+import projImg10 from '../assets/img/max.png';
 import Nav from 'react-bootstrap/Nav';
 import { ProjectCard } from './ProjectCard';
 import colorSharp2 from '../assets/img/color-sharp2.png';
@@ -44,18 +48,38 @@ export const Project = () => {
       description: 'Development',
       imgUrl: projImg6,
     },
+    {
+      title: 'Lunagens Blockchain Platform',
+      description: 'Development',
+      imgUrl: projImg7,
+    },
+    {
+      title: 'ZarkParking',
+      description: 'Development',
+      imgUrl: projImg8,
+    },
+    {
+      title: 'AdsGency',
+      description: 'Development',
+      imgUrl: projImg9,
+    }
   ];
 
   const mobiles = [
     {
       title: 'Bussniss Startup ',
-      describtion: 'Desgin & Develope',
+      describtion: 'Desgin & Develop',
       imgUrl: projImg1,
     },
     {
-      title: 'Bussniss Startup ',
-      describtion: 'Desgin & Develope',
-      imgUrl: projImg2,
+      title: 'ZarkParking',
+      describtion: 'Desgin & Develop',
+      imgUrl: projImg8,
+    },
+    {
+      title: 'MaxRewards',
+      describtion: 'Desgin & Develop',
+      imgUrl: projImg10,
     }
   ];
 
