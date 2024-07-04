@@ -33,7 +33,7 @@ export const Skills = () => {
             <div className='skill-bx'>
               <h2>Skills</h2>
               <p>
-                Web3, React, Vue, Angular, Typescript, JavaScript, CSS3, HTML5, SCSS/SASS, Bootstrap, Material, Tailwind CSS,
+                Web3, React, React Native, Vue, Angular, Typescript, JavaScript, CSS3, HTML5, SCSS/SASS, Bootstrap, Material, Tailwind CSS,
                 Django/Python, Node.js/Express, PHP, MySQL, Oracle, MongoDB, PostreSQL, Azure SQL, Firebase, AWS, Git, cPanel, Docker.
               </p>
               <Carousel
